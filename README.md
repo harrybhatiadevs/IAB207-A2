@@ -41,6 +41,8 @@ flowchart TD
 
 The application uses a Flask application factory, separate authentication and main blueprints, form objects for server-side validation, and SQLAlchemy relationships for users, events, bookings, comments, and ticket types.
 
+For decision flowcharts and implementation limits, see [Application workflows](docs/workflows.md).
+
 ## Data model
 
 ```mermaid
@@ -63,8 +65,8 @@ erDiagram
 ### Install and run
 
 ```bash
-git clone https://github.com/harrybhatiadevs/IAB207_A2.git
-cd IAB207_A2
+git clone https://github.com/harrybhatiadevs/IAB207-A2.git
+cd IAB207-A2
 
 python3 -m venv .venv
 source .venv/bin/activate
